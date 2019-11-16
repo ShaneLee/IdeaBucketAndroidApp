@@ -21,10 +21,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+        ideaViewModel = IdeaViewModel()
+
         submitButton.setOnClickListener { view ->
             ideaViewModel.submit(ideaText.text.toString(), categoryText.text.toString())
-            Snackbar.make(view, "Idea Submitted", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            Snackbar.make(view, "Idea Submitted", Snackbar.LENGTH_LONG).show()
+            ideaText.setText("")
+            categoryText.setText("")
         }
 
 
