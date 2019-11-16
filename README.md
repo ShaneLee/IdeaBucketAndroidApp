@@ -8,3 +8,9 @@ Android Application: https://github.com/ShaneLee/IdeaBucketAndroidApp
 * Connects to a Node.Js backend
 
 Enables the user to post ideas to a database.
+
+
+TODOS:
+
+[] Add spinner to filter by categories
+[] Add categories dropdown for the category input.
