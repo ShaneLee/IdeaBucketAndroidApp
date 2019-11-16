@@ -11,6 +11,5 @@ object IdeaManager {
 
     private fun initialiseIdeas() {
         ideasArray = RestController.getIdeas().ideas
-        ideasArray.add(IdeaData(1, "Test", "Category"))
     }
 }
