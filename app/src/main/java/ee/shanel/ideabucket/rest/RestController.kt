@@ -8,7 +8,7 @@ import java.io.IOException
 object RestController {
     fun getIdeas() : IdeaList {
         var retVal = IdeaList(arrayListOf())
-        val url = "http://shanelee.co.uk:1200/api/ideas"
+        val url = "http://86.18.157.128:1200/api/ideas"
 
         val request = Request.Builder()
             .url(url)

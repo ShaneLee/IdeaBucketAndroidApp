@@ -13,6 +13,6 @@ object SubmitIdea {
                 return@APIService
             }
             println(it)
-        } ).execute("POST", "http://shanelee.co.uk:1200/api/submit_idea", json.toString())
+        } ).execute("POST", "http://86.18.157.128:1200/api/submit_idea", json.toString())
     }
 }
